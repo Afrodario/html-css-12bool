@@ -21,3 +21,9 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/* Regole colonne */
+.col-1 {
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}
