@@ -1,5 +1,5 @@
 [class*="col-"] {
-    background-color: blue;
+    background-color: rgb(57, 182, 231);
     text-align: center;
     color: white;
     padding: 10px;
@@ -7,12 +7,12 @@
 }
 
 .row .row [class*="col-"] {
-    background-color: green;
-    border: 1px solid blue;
+    background-color: rgb(27, 219, 27);
+    border: 1px solid rgb(57, 182, 231);
     padding: 15px;
 }
 
-.chart {
+.chart, .offset {
     margin-top: 20px;
 }
 
